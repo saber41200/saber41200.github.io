@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.header{
+    color: black;
+    font-size: 3rem;
+    font-family:'Times New Roman';
+    text-align: center;
+    transform: scale(1,1.3);
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#experience h1{
+    margin: 60px;
+}
+#Skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#Skills h1{
+    margin: 60px;
+}
+#Sources{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#Sources{
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 360px;
+    height: 640px;
+    padding: 10px;
+    margin: 10px;
+}
+.gallery img:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#experience1{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#experience1 h1{
+    margin: 60px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: yellowgreen;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
+#coucou{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100%;
+}
+#coucou h1{
+    color: black;
+    margin: 55px;
+}
+.coucou{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.coucou img{
+    width: 500px;
+    height: 400px;
+    padding: 0px 30px;
+}
+.moi{
+    padding: 10px;
+}
+.moi h2{
+    font-size: 2rem;
+}
+.moi p{
+    font-size: 1.2rem;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#contact h1{
+    margin: 50px;
+}
+.lien{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
